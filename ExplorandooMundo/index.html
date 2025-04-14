@@ -4,11 +4,35 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Explorando o Mundo</title>
+    <link rel="StyleSheet" type="text/css" href="./style.css"/>
+    <link rel="icon" type="image/png" href="./Imagens/favicon-16x16.png"/>
 </head>
-<body>
+<nav>
+    <ul class="menu">
+        <li><a href="../index.html">Página Inicial</a></li>
+        <li><a href="../Formularios/formulario.html">Entre em Contato</a></li>
+
+        <li>
+            <a href="#">Sobre Nossa Empresa</a>
+            <ul>
+                <li><a href="#">Informações</a></li>
+                <li><a href="#">Empresa</a></li>
+                <li><a href="#">Gestão</a></li>
+            </ul>
+        </li>
+
+        <li> <p><a href="#">Links</a></li>
+        <li> <p><a href="#">Sugestões</a></li>
+    </ul>
+</nav>
+<br />
+<br />
+<body id="bodyindex">
     <h2 id="Secao1"></h2>
+    <br />
     <!--Parágrafo e elementos de texto-->
-    <h2 align="center">Descubra o mundo, um destino de cada vez! 🌎</h2>
+    <br />
+    <h4>Descubra o mundo, um destino de cada vez! 🌎</h4>
     <h4>Seu próximo destino começa aqui.🚀✨</h4>
     <video controls src="../ExplorandooMundo/Videos/Avião sobrevoando as nuvens.mp4" width="600" height="400" muted> Vídeo: Avião sobrevoando as nuvens.</video>
     <p><small>Vídeo de Wil Serrano no Pixabay</small></p>
@@ -38,7 +62,7 @@
         <p>Explore nosso conteúdo, conheça nossos guias exclusivos e inspire-se para sua próxima viagem. 
         Seu próximo destino está a apenas um clique de distância. <b>Prepare-se para explorar o mundo!</b></p>
     </p>
-    <h2 align="center">Dicas para Planejar sua Viagem Perfeita</h2>
+    <h2>Dicas para Planejar sua Viagem Perfeita</h2>
         <p><!-- Parágrafo 5: Planejamento e organização -->
             Antes de sair para sua próxima aventura, <b>é essencial se organizar.</b> Faça uma lista com tudo que precisa levar, 
             confira a documentação necessária e planeje um roteiro com os principais pontos turísticos. 
@@ -92,7 +116,7 @@
         <p>Não sabe por onde começar? Que tal conhecer um pouco das Maravilhas do Mundo Moderno!</p> <a href="./Páginas/setemaravilhas.html">Aqui!</a>
       
      <hr />
-            <h2 align="center">Como calcular os custos da sua viagem em JavaScript?</h2>
+            <h2>Como calcular os custos da sua viagem em JavaScript?</h2>
             <pre><!-- Código para interface -->
                 function calcularCusto(orcamento, dias) {
                     if (orcamento <= 0 || dias <= 0) {
@@ -107,5 +131,44 @@
      <hr />
             
 </body>
+<footer class="rodape" id="contato">
+    <div class="rodape-div">
+        <!--Coluna 01-->
+        <div class="rodape-div-1">
+        <div class="rodape-div-1-coluna">
+          <span>Explorando o Mundo</span>
+          <p><a href="#">Cadastre-se</p>  
+          <p><a href="#">Login</p>  
+        </div>
+        </div>
+        <!--Coluna 02-->
+            <div class="rodape-div-2">
+            <div class="rodape-div-2-coluna">
+              <span>Ajuda</span>
+<p><a href="#">Dúvidas</p>
+<p><a href="#">Contatos</p> 
+            </div>
+            </div>
+            <!--Coluna 03-->
+            <div class="rodape-div-3">
+            <div class="rodape-div-3-coluna">
+              <span>Sobre</span>
+              <p><a href="#">Propósito</p>  
+              <p><a href="#">Sustentabilidade</p>  
+              <p><a href="#">Valores</p>  
+            </div>
+            </div>
+            <!--Coluna 04-->
+            <div class="rodape-div-4">
+            <div class="rodape-div-4-coluna">
+              <span>Redes Sociais</span>
+              <p><a href="#">Instagram</p>  
+              <p><a href="#">Youtube</p>  
+              <p><a href="#">Twitter</p> 
+            </div>
+            </div>
+    </div>
+    <p class="rodape-direitos">Copyright&copy; 2025</p>
+</footer>
 </html>
 
